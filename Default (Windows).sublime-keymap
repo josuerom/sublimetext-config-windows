@@ -1,0 +1,8 @@
+[
+	{ "keys": ["ctrl", "ctrl"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+	// con <Ctrl+ñ> se abre la side bar o árbol
+	{ "keys": ["ctrl+´"], "command": "toggle_side_bar" },
+	{ "keys": ["f7"], "command": "build" },
+	{ "keys": ["ctrl+b"], "command": "build" },
+	{ "keys": ["ctrl+shift+b"], "command": "build", "args": {"select": true} }
+]
