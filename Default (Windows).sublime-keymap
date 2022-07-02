@@ -1,8 +1,8 @@
 [
-	{ "keys": ["ctrl", "ctrl"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
-	// con <Ctrl+ñ> se abre la side bar o árbol
-	{ "keys": ["ctrl+´"], "command": "toggle_side_bar" },
-	{ "keys": ["f7"], "command": "build" },
+	// con <shift+shift> abro la side bar o árbol
+	{ "keys": ["shift", "shift"], "command": "toggle_side_bar" },
+	// <shift+f7> se ejecuta los archivos
+	{ "keys": ["shift", "f7"], "command": "build" },
 	{ "keys": ["ctrl+b"], "command": "build" },
 	{ "keys": ["ctrl+shift+b"], "command": "build", "args": {"select": true} }
 ]
