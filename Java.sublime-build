@@ -1,5 +1,7 @@
 {
-	"shell_cmd": "javac \"$file_name\" && java \"$file_base_name\"",
-	"file_regex": "^(...*?):([0-9]*):?([0-9]*)",
-	"selector": "source.java",
+    // Antes de esto instale la extensión: Terminus
+    "target": "terminus_exec",
+    "cancel": "terminus_cancel_build",
+    "working_dir": "$file_path",
+    "shell_cmd": "cls && javac $file_name && java $file_name"
 }
