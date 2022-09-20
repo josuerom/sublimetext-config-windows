@@ -1,4 +1,6 @@
 [
+	// matar compilación
+	{ "keys": ["ctrl+shift+c"], "command": "cancel_build" },
 	// con <shift+shift> abro la side bar o árbol
 	{ "keys": ["shift", "shift"], "command": "toggle_side_bar" },
 	// <shift+f7> se ejecuta los archivos
