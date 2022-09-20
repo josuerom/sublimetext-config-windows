@@ -6,5 +6,14 @@
 	// <shift+f7> se ejecuta los archivos
 	{ "keys": ["shift", "f7"], "command": "build" },
 	{ "keys": ["ctrl+b"], "command": "build" },
-	{ "keys": ["ctrl+shift+b"], "command": "build", "args": {"select": true} }
+	{ "keys": ["ctrl+shift+b"], "command": "build", "args": {"select": true} },
+
+	{ 
+      "keys": ["ctrl+alt+t"],
+      "command": "terminus_open",
+      "args": {
+         "cwd": "${file_path:${folder}}"
+      }
+   },
+
 ]
