@@ -6,10 +6,9 @@
 	"installed_packages":
 	[
 		"A File Icon",
-		"doTjs Template Syntax Highlighting",
 		"Package Control",
-		"Rainbowth",
-		"SideBarEnhancements",
+		"RainbowBrackets",
+		"SideBarMenuAdvanced",
 		"Tabnine",
 		"Terminus",
 	],
