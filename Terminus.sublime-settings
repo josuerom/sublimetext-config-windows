@@ -99,11 +99,10 @@
         // "ctrl+p"   // to show Go to Anything
     ],
 
-    // the name of the theme
-    // the theme could be either "classic", "adaptive", "user" or any predefined themes
-    // listed in the command `Terminus Utilities: Select Theme`.
-    // For Sublime Text before 4096, the adaptive theme will fallback to the classic theme.
-    "theme": "Arthur",
+    // Temas para la terminal
+    //"theme": "Homebrew",
+    //"theme": "Teerb",
+    "theme": "Smyck",
 
     // change `theme` to "user" if you want to use customized theme
     // see https://www.sublimetext.com/docs/3/color_schemes.html#colors for the
@@ -135,7 +134,7 @@
 
     "view_settings": {
     	"font_face": "Cascadia Code",
-    	"font_size": 11.4,
+    	"font_size": 10.4,
     },
 
     "debug": false
