@@ -1,9 +1,8 @@
 <snippet>
 	<content><![CDATA[
-public static void main(String[] args) {$1}
+public static void main(String[] args) {
+   $1
+}
 ]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>main</tabTrigger>
-	Optional: Method main of Java
-	<!-- <scope>source.python</scope> -->
+	<tabTrigger>fm</tabTrigger>
 </snippet>
