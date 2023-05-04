@@ -1,0 +1,6 @@
+{
+   "shell_cmd": "g++ $file_name -o sol.exe -std=c++20 -O2 -Wall -Djosuerom -Wextra -Wl,--stack=256000000 -pedantic -Wshadow -Weffc++ -Wformat=2 -Wconversion && start cmd /k sol.exe ^& pause ^& exit", 
+   "selector": "source.c++, source.cpp",
+   "working_dir": "${file_path}",
+   "shell": true,
+}

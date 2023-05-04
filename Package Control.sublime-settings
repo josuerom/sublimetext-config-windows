@@ -6,10 +6,11 @@
 	"installed_packages":
 	[
 		"A File Icon",
+		"CppFastOlympicCoding",
+		"InsertDate",
 		"Package Control",
-		"RainbowBrackets",
-		"SideBarMenuAdvanced",
-		"Tabnine",
+		"SideBarEnhancements",
+		"SublimeREPL",
 		"Terminus",
 	],
 }
