@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+/**
+ *  author:  josuerom
+ *  created: $1
+**/
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#ifdef josuerom
+   #include "data/debug.h"
+#endif
+
+int main() {
+   ios::sync_with_stdio(false);
+   cin.tie(0);
+   $2
+   return 0;
+}
+]]></content>
+	<tabTrigger>tem1</tabTrigger>
+</snippet>

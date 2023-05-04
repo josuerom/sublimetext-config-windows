@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[
+/**
+ *  author:  josuerom
+ *  created: $1
+**/
+#pragma GCC optimize("03,unroll-loops")
+#pragma GCC target("avx2,bmi,bmi2,lzcnt,popcnt")
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#ifdef josuerom
+   #include "data/debug.h"
+#endif
+
+#define all(a) (a).begin(), (a).end()
+#define len(a) int(size((a)))
+#define sz(a) (int) (a).size()
+#define ll long long
+#define endl '\n'
+
+int main() {
+   ios::sync_with_stdio(false);
+   cin.tie(0);
+   $2
+   return 0;
+}
+]]></content>
+	<tabTrigger>tem2</tabTrigger>
+</snippet>
