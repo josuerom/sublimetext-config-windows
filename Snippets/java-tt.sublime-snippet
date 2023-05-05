@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+int tt = fr.readInt();
+while (tt-- > 0) {
+	$1
+}
+]]></content>
+	<tabTrigger>tt</tabTrigger>
+</snippet>

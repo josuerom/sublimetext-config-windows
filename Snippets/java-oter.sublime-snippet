@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+System.out.println(($1 ? $2 : $3));
+pw.println(($1 ? $2 : $3));
+]]></content>
+	<tabTrigger>oter</tabTrigger>
+</snippet>

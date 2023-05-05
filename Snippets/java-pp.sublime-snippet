@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+pw.println($1);
+]]></content>
+	<tabTrigger>pp</tabTrigger>
+</snippet>

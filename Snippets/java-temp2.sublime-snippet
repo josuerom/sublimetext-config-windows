@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+/**
+ *  author:  josuerom
+ *  created: $1
+**/
+import java.util.Scanner;
+
+public class ${TM_FILENAME/(.+)\..+|.*/$1/:name} {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		$2
+		sc.close(); System.out.close();
+	}
+}
+]]></content>
+	<tabTrigger>temp2</tabTrigger>
+</snippet>
