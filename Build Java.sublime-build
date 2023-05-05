@@ -1,6 +1,0 @@
-{
-    "target": "terminus_exec",
-    "cancel": "terminus_cancel_build",
-    "working_dir": "$file_path",
-    "shell_cmd": "javac -d . -g $file_name && java -Xms128m -Xmx1g $file_base_name"
-}
