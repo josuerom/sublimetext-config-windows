@@ -1,35 +1,38 @@
 [
 	// matar compilación
 	{ "keys": ["ctrl+shift+c"], "command": "cancel_build" },
-	// con <shift+shift> abro la side bar o árbol
+	// <F10> se ejecuta los archivos
+	{ "keys": ["f10"], "command": "build" },
+	// con <shift+shift> se abre la side bar y cierra
 	{ "keys": ["shift", "shift"], "command": "toggle_side_bar" },
-	// <shift+f7> se ejecuta los archivos
-	{ "keys": ["shift+f10"], "command": "build" },
-	// { "keys": ["ctrl+b"], "command": "build" },
-	{ "keys": ["ctrl+b"], "command": "build", "args": {"select": true} },
 
-	// Open terminus ctrl + ñ
+	// Open terminus ctrl + shift + ñ
 	{ 
       "keys": ["ctrl+shift+`"],
       "command": "terminus_open",
       "args": {
-      	"cmd": "powershell",
+      	"cmd": "cmd",
          "cwd": "${file_path:${folder}}",
-         "title": "Terminus"
+         "title": "Terminus",
       }
    },
    { 
       "keys": ["ctrl+`"],
       "command": "toggle_terminus_panel",
       "args": {
-      	"cmd": ["cmd", "cls"],
+      	"cmd": "cmd",
          "cwd": "${file_path:${folder}}",
       }
    },
-   // Execute programs cpp
-   {
-      "keys": ["ctrl+alt+n"],
-      "command": "terminus_open",
-      "cwd": "g++ -std=c++20 -Wall -O2 -Djosuerom -o $file_base_name $file && .\\$file_base_name < input.in",
+   // cerra pestaña Terminus
+   { 
+      "keys": ["ctrl+q"],
+      "command": "terminus_close",
+      "context": [
+         {
+            "key": "terminus_view"
+         }
+      ]
    },
+   
 ]

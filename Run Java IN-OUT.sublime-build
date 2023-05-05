@@ -1,0 +1,6 @@
+{
+    "target": "terminus_exec",
+    "cancel": "terminus_cancel_build",
+    "working_dir": "${file_path}",
+    "shell_cmd": "cls && javac -d .class -g $file_name && java -Xms0m -Xmx256m -Xss64m -Xrs $file_base_name < sample\\input.in > sample\\output.ans"
+}
